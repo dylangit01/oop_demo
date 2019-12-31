@@ -1,0 +1,88 @@
+/*下面什么意思*/
+* {
+    box-sizing: border-box;
+}
+
+.mainImgs {
+    width: 100%;
+    height: auto;
+    /*margin-bottom: 0;*/
+}
+
+.dots {
+    cursor: pointer;
+    margin: 10px;
+    outline: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #f2f4f6;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.highlightDots {
+    background-color: #bbb;
+}
+
+.centerdiv {
+    text-align: center;
+    margin: 0px;
+    /*height: 771.547px;*/
+}
+
+.pausebtn {
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.arrow {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.prev, .next {
+    /*z-index: 100;*/
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    outline: transparent;
+    border: none;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    color: #fff;
+    opacity: .75;
+    font-size: 35px;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
